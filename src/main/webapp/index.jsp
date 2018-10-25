@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  JENKINS SAMPLE APP
   </body>
 </html>
