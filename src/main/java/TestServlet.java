@@ -12,7 +12,7 @@ public class TestServlet  extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String name = req.getParameter("name");
+        String name = req.getParameter("username");
         String pass = req.getParameter("password");
 
 
@@ -24,7 +24,6 @@ public class TestServlet  extends HttpServlet {
         wr.println("password: "+pass);
 
         wr.println("\nthat was soooo unwise.. boo hoo ");
-
 
     }
 }
