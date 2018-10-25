@@ -12,5 +12,11 @@
   </head>
   <body>
   JENKINS SAMPLE APP
+
+  <form action="test-servlet" method="post">
+    <input type="text" placeholder="username" name="username">
+    <input type="password" placeholder="password" name="password">
+    <input type="submit" value="click meeee">
+  </form>
   </body>
 </html>
